@@ -3356,6 +3356,12 @@
         overflow-x: hidden;
         /*z-index: 21;*/
     }
+    @media screen and (max-width: 600px) {
+        .video-background {
+            display: none;
+            visibility: hidden;
+        }
+    }
 
     .video-background iframe{
         display: block;
