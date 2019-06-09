@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="video-background">
+        <iframe src="{{ site.banner_video }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="content">
+        <header>
+            <h2>{{ site.banner_header }}</h2>
+            <p>{{ site.banner_description }}</p>
+        </header>
+        <span class="image"><img src="assets/images/profile.jpg" alt="" /></span>
+    </div>
+    <a href="#0" class="goto-next scrolly">Next</a>
+</section>
+
+{% comment %} 
+Only featured projects are rendered in the home page.
+{% endcomment %}
+
+{% assign projects = site.projects | where: "featured", "true" %}
+
+<!-- Content -->
+{% for project in projects %}
+
+<section id="{{ forloop.index0 }}" class="spotlight style2 {% cycle 'left', 'right' %}">
+    <span class="image fit main"><img src="{{ project.bg }}" alt="" /></span>
+    <div class="content">
+        <header>
+            <h2>{{ project.name }}</h2>
+            <p>{{ project.one_liner }}</p>
+        </header>
+        <p>{{ project.description | markdownify }}</p>
+        <ul class="actions">
+            {% if project.direct_link %}
+            <li><a href="{{ project.direct_link }}" target="_blank" class="button">Go to it</a></li>
+            {% else %}
+            <li><a href="{{ project.url }}" class="button">Learn More</a></li>
+            {% endif %}
+        </ul>
+    </div>
+    {% unless forloop.last %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    <a href="#{{ next_i }}" class="goto-next scrolly">Next</a>
+    {% endunless %}
+</section>
+
+{% endfor %}
