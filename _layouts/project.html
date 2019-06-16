@@ -30,6 +30,7 @@ layout: default
                                 </ul>
                             </footer>
                         </section>
+                        {% assign side_content = true %}
                         {% endif %}
                         
                         <!-- Source Code -->
@@ -52,11 +53,18 @@ layout: default
                                 </ul>
                             </footer>
                         </section>
+                        {% assign side_content = true %}
                         {% endif %}
                     </section>
 
                 </div>
-                <div class="8u$ 12u$(medium) important(medium)">
+                
+                {% if side_content %}
+                    {% assign content_css = "8u$ 12u$(medium) important(medium)" %}
+                {% else %}
+                    {% assign content_css = "12u$ 12u$(medium) important(medium)" %}
+                {% endif %}
+                <div class="{{ content_css }}">
 
                     <!-- Content -->
                     <section id="content">
@@ -70,6 +78,7 @@ layout: default
                     </section>
 
                 </div>
+                
             </div>
         </div>
     </div>

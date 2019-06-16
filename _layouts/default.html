@@ -20,7 +20,14 @@
                 {% endif %}
                 
                 {% unless page.url == "/" %}
-                <li><a href="/" class="button special">Back</a></li>
+                
+                {% assign back_url = "/" %}
+                
+                {% if page.project %}
+                    {% assign back_url = "/projects/" %}
+                {% endif %}
+                
+                <li><a href="{{ back_url }}" class="button special">Back</a></li>
                 {% endunless %}
             </ul>
         </nav>

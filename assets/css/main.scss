@@ -6,6 +6,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import url("font-awesome.min.css");
+@import url("extras.scss");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 /*
@@ -81,7 +82,6 @@ textarea {
 
 a {
     @include vendor('transition', ('border-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
-    border-bottom: dotted 1px;
     color: _palette(accent1);
     text-decoration: none;
 
@@ -89,11 +89,6 @@ a {
         color: _palette(accent1) !important;
         border-bottom-color: transparent;
     }
-}
-
-.clear_link, .clear_link:hover, .clear_link:visited, .clear_link:link, .clear_link:active {
-    text-decoration: none;
-    border: none;
 }
 
 strong,
