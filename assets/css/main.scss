@@ -49,13 +49,6 @@
 $size-wrapper-pad-tb: 6em;
 $size-wrapper-pad-lr: 3em;
 
-/* Utils */
-
-.clear_link, .clear_link:hover, .clear_link:visited, .clear_link:link, .clear_link:active {
-    text-decoration: none;
-    border: none;
-}
-
 /* Basic */
 
 html,
@@ -96,6 +89,11 @@ a {
         color: _palette(accent1) !important;
         border-bottom-color: transparent;
     }
+}
+
+.clear_link, .clear_link:hover, .clear_link:visited, .clear_link:link, .clear_link:active {
+    text-decoration: none;
+    border: none;
 }
 
 strong,
@@ -2162,3 +2160,4 @@ body.is-touch {
     }
 
 }
+
