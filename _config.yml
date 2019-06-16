@@ -26,7 +26,7 @@ banner_description: Game development aficionado. C# enthusiast.<br/>Scroll down 
 #Content
 
 #Footer
-twitter_user: lucasmontec
+twitter_user: zombiemontec
 linkedin_tag: javaman
 gitlab_user: lucasmontec
 github_user: lucasmontec
@@ -49,8 +49,15 @@ plugins:
 
 collections:
     projects:
-        project: true
         output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      project: true
+      layout: "project"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

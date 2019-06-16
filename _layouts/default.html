@@ -14,9 +14,16 @@
         <h1 id="logo">{{ site.inner_title }}</h1>
         <nav>
             <ul>
+                {% if page.blog %}
                 <li><a href="/">Home</a></li>
+                {% endif %}
+                {% unless page.project %}
                 <li><a href="/blog/">Blog</a></li>
                 <li><a href="#contact" class="button special scrolly">Contact</a></li>
+                 {% endunless %}
+                {% if page.project %}
+                <li><a href="/" class="button special scrolly">Back</a></li>
+                {% endif %}
             </ul>
         </nav>
     </header>

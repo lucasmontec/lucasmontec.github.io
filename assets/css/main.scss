@@ -1,4 +1,5 @@
 ---
+# Keep this here so jekyll triggers when we change this file.
 ---
 
 @import 'libs/vars';
@@ -1382,7 +1383,6 @@ body.landing {
             li {
                 display: inline-block;
                 margin-left: 1em;
-
                 a,
                 span {
                     border: 0;

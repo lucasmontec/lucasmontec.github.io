@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div id="page-wrapper">
+
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>{{ page.name }}</h2>
+                <p>{{ page.one_liner }}</p>
+            </header>
+            <div class="row 150%">
+                <div class="4u 12u$(medium)">
+
+                    <!-- Sidebar -->
+                    <section id="sidebar">
+                        
+                        <!-- Binary Download -->
+                        {% if page.binary_download %}
+                        <section>
+                            <h3>Download</h3>
+                            {% if page.download_phrase %}
+                                <p>{{ page.download_phrase }}</p>
+                            {% endif %}
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="{{ page.binary_download }}" target="_blank" class="button">Download</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                        {% endif %}
+                        
+                        <!-- Source Code -->
+                        {% if page.source_code_url %}
+                        <hr />
+                        
+                        <section>
+                            {% if page.source_code_image %}
+                            <a href="{{ page.source_code_url }}" target="_blank" class="image fit"><img src="{{ page.source_code_image }}" alt="" /></a>
+                            {% endif %}
+                            
+                            <h3>Source code</h3>
+                            {% if page.source_code_phrase %}
+                                <p>{{ page.source_code_phrase }}</p>
+                            {% endif %}
+                            
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="{{ page.source_code_url }}" target="_blank" class="button">Go there</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                        {% endif %}
+                    </section>
+
+                </div>
+                <div class="8u$ 12u$(medium) important(medium)">
+
+                    <!-- Content -->
+                    <section id="content">
+                        
+                        {% if page.main_image %}
+                        <div class="image fit"><img src="{{ page.main_image }}" alt="" /></div>
+                        {% endif %}
+                        
+                        {{ content }}
+                        
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
