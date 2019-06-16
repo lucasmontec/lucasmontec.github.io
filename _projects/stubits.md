@@ -19,4 +19,27 @@ description: |
 
 ---
 
-StuBits is my biggest project so far. It is a first person, multiplayer, comedic, fast paced game. It is about robots playing and trying to work in an unfriendly environment. It is also physics based, where many of the game mechanics are based on physics interactions.
+### What is StuBits?
+
+Stubits is a comedic game about little robots that have to keep a huge factory. The game is set in a futuristic universe where humans moved out of the old cities into super high tech ones. The old structures though, were converted into mega factories that must run continuously to keep the super cities.
+
+The game is about the little robots having fun while operating heavy machinery. They are a bit 'stupid' and keep dismantling themselves either by accident or because a friend thought it would be funny. But there is no problem, the robots are quite cheap and are quickly rebuilt.
+
+It is a first person fast paced game. Most of the mechanics rely on physics but there are many gamemodes and maps that have their own gameplay.
+
+### A quick 'teaser':
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube.com/embed/JNRTrztjq_U" frameborder="0" allowfullscreen></iframe>
+</div>
+
+The game is beeing developed by my team, Sawce. I'm currently the general coordinator and network software developer.
+
+### Main features
+
+* Gamemodes
+* Many maps
+* Multiplayer (authoritative proprietary code)
+* Dynamic emoticons :3
+
+Keep in mind this is a work in progress. We estimate a beta release by january 2018. (nope)

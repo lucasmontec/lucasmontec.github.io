@@ -17,6 +17,22 @@ layout: default
                     <!-- Sidebar -->
                     <section id="sidebar">
                         
+                        <!-- Direct Link -->
+                        {% if page.direct_link %}
+                        <section>
+                            <h3>{{ site.direct_link_header }}</h3>
+                            {% if page.direct_link_phrase %}
+                                <p>{{ page.direct_link_phrase }}</p>
+                            {% endif %}
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="{{ page.direct_link }}" target="_blank" class="button">{{ site.direct_link_button }}</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                        {% assign side_content = true %}
+                        {% endif %}
+                        
                         <!-- Binary Download -->
                         {% if page.binary_download %}
                         <section>

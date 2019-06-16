@@ -22,7 +22,7 @@ All projects are rendered in the projects page.
                 {% for project in site.projects %}
                 
                 <section class="4u{% cycle '', '', '$' %} 6u{% cycle '', '$', '' %}(medium) 12u$(xsmall)">
-                    <a class="clearlink" href="{{ project.url }}" target="_blank">
+                    <a class="clearlink" href="{{ project.url }}">
                         <span class="icon alt major fas {{ project.font_awesome_icon | default: "fa-cube" }}"></span>
                         <h3>{{ project.name }}</h3>
                     </a>
