@@ -1,5 +1,6 @@
 ---
 layout: default
+home: true
 ---
 
 <!-- Banner -->
@@ -49,3 +50,14 @@ Only featured projects are rendered in the home page.
 </section>
 
 {% endfor %}
+
+<!-- All Projects -->
+<section id="five" class="wrapper style1 special fade-up">
+    <div class="container">
+        <header class="major">
+            <h2>{{ site.all_projects_section_header }}</h2>
+            <p>{{ site.all_projects_section_subtitle }}</p>
+        </header>
+        <a href="/projects" class="button special scrolly">All Projects</a>
+    </div>
+</section>

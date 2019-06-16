@@ -25,6 +25,17 @@ banner_description: Game development aficionado. C# enthusiast.<br/>Scroll down 
 
 #Content
 
+#All projects button
+all_projects_section_header: More
+all_projects_section_subtitle: Other interesting stuff I've done...
+
+#Contact me
+contact_header: Contact me
+#Optional contact phrase
+contact_phrase: >- # Multiline
+    Do you want to work with me, want to use my code somewhere? Have questions about networking or game development?
+email_button: Feel free to drop me an email!
+
 #Footer
 twitter_user: zombiemontec
 linkedin_tag: javaman
@@ -33,6 +44,7 @@ github_user: lucasmontec
 bitbucket_user: lucasmontec
 
 email: lucas.mcarvalhaes@gmail.com
+email_subject: Contact
 description: >- # this means to ignore newlines until "baseurl:"
   Game development aficionado. C# enthusiast.
   Scroll down to checkout my work. Have fun!
@@ -44,6 +56,7 @@ copyright_notice: "&copy; Lucas M Carvalhaes. All rights reserved."
 # Build settings
 markdown: kramdown
 # theme: minima
+
 plugins:
   - jekyll-feed
 

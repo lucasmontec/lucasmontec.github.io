@@ -5,8 +5,11 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url('font-awesome.min.css');
+@import "/assets/css/font-awesome/fontawesome.scss";
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+$fa-font-path: "fonts/font-awesome/";
+@import 'font-awesome';
 
 /*
 	Landed by HTML5 UP
@@ -49,11 +52,11 @@
 $size-wrapper-pad-tb: 6em;
 $size-wrapper-pad-lr: 3em;
 
-/* General */
+/* Utils */
 
-.clear_link {
-    border: none;
+.clear_link, .clear_link:hover, .clear_link:visited, .clear_link:link, .clear_link:active {
     text-decoration: none;
+    border-bottom-style: none;
 }
 
 /* Basic */
