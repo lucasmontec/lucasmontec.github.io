@@ -1,0 +1,36 @@
+---
+layout: default
+title: Projects
+permalink: "/projects/"
+---
+
+{% comment %}
+All projects are rendered in the projects page.
+{% endcomment %}
+
+
+<!-- Content -->
+
+<section id="five" class="wrapper style1 special fade-up">
+    <div class="container">
+        <header class="major">
+            <h2>All Projects</h2>
+        </header>
+
+        <div class="box alt">
+            <div class="row uniform">
+                {% for project in site.projects %}
+                
+                <section class="4u{% cycle '', '', '$' %} 6u{% cycle '', '$', '' %}(medium) 12u$(xsmall)">
+                    <a class="clear_link" href="{{ project.url }}" target="_blank">
+                        <span class="icon alt major fas {{ project.font_awesome_icon | default: "fa-cube" }}"></span>
+                        <h3>{{ project.name }}</h3>
+                    </a>
+                    <p>{{ project.one_liner }}</p>
+                </section>
+                
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

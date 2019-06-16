@@ -6,6 +6,8 @@ featured: true
 
 # Listing settings
 
+font_awesome_icon: fa-cogs
+
 bg: assets/images/botz.png
 
 one_liner: A game about logistics and resource management.

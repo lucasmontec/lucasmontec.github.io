@@ -49,6 +49,13 @@
 $size-wrapper-pad-tb: 6em;
 $size-wrapper-pad-lr: 3em;
 
+/* General */
+
+.clear_link {
+    border: none;
+    text-decoration: none;
+}
+
 /* Basic */
 
 html,
@@ -641,6 +648,16 @@ input[type="radio"] {
 
         &.alt {
             @include line-icon(_palette(accent2));
+        }
+    }
+}
+
+a {
+    .icon {
+        &.major {
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
         }
     }
 }

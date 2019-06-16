@@ -1,0 +1,17 @@
+<section id="contact" class="wrapper style2 special fade">
+    <div class="container">
+        <header>
+            <h2>{{ site.contact_header }}</h2>
+            {% if site.contact_phrase %}
+            <p>{{ site.contact_phrase }}</p>
+            {% endif %}
+        </header>
+        <form method="post" action="mailto:{{ site.email }}?subject={{ site.email_subject }}" class="container 50%">
+            <div class="row uniform 50%">
+                <div class="12u$ 12u$(xsmall)">
+                    <input type="submit" value="{{ site.email_button }}" class="fit special" />
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

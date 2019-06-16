@@ -3,6 +3,10 @@ name: AlienTextEngine & TalePad
 type: Game
 featured: true
 
+# Listing settings
+
+font_awesome_icon: fa-terminal
+
 bg: assets/images/ate_talepad.png
 
 one_liner: A text game engine, a language and a code editor to play.
