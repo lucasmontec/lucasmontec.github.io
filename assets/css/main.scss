@@ -6,8 +6,9 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import url("font-awesome.min.css");
-@import url("extras.scss");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+@import url("extras.scss");
 
 /*
 	Landed by HTML5 UP
@@ -49,6 +50,25 @@
 
 $size-wrapper-pad-tb: 6em;
 $size-wrapper-pad-lr: 3em;
+
+.clearlink {
+    text-decoration: none;
+    border: none;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* Basic */
 

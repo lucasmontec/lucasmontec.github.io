@@ -27,13 +27,14 @@ The game is about the little robots having fun while operating heavy machinery. 
 
 It is a first person fast paced game. Most of the mechanics rely on physics but there are many gamemodes and maps that have their own gameplay.
 
-### A quick 'teaser':
+### Teaser
 
 <div class="video-container">
     <iframe class="video" src="https://www.youtube.com/embed/JNRTrztjq_U" frameborder="0" allowfullscreen></iframe>
 </div>
+<p></p>
 
-The game is beeing developed by my team, Sawce. I'm currently the general coordinator and network software developer.
+The game was being developed by my team, Sawce. I'm was the general coordinator and network software developer at the time.
 
 ### Main features
 
