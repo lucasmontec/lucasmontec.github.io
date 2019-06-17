@@ -18,6 +18,24 @@
 title: Portfolio Lucas M Carvalhaes
 inner_title: Portfolio
 
+#SEO
+description: Developer portfolio for the game developer, Unity 3D developer, Virtual Reality developer, augmented reality developer, systems architect Lucas Montenegro Carvalhaes.
+
+author:
+  twitter: zombiemontec
+  gitlab: lucasmontec
+  github: lucasmontec
+  
+social:
+  name: Lucas Montenegro Carvalhaes
+  links:
+    - https://twitter.com/zombiemontec
+    - https://www.linkedin.com/in/javaman
+    - https://github.com/lucasmontec
+    - https://gitlab.com/lucasmontec
+    
+lang: en_US
+
 #Banner
 banner_video: https://www.youtube.com/embed/jP7aozy4TJg?controls=0&showinfo=0&rel=0&playlist=jP7aozy4TJg&autoplay=1&loop=1&mute=1
 banner_header: Lucas Montenegro Carvalhaes
@@ -53,7 +71,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Game development aficionado. C# enthusiast.
   Scroll down to checkout my work. Have fun!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lucasmontec.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 copyright_notice: "&copy; Lucas M Carvalhaes. All rights reserved."
 
@@ -66,6 +84,7 @@ google_analytics: UA-142152268-1
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
     projects:
