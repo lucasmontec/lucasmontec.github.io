@@ -30,6 +30,24 @@ layout: default
                                 </ul>
                             </footer>
                         </section>
+                        <hr />
+                        {% assign side_content = true %}
+                        {% endif %}
+                        
+                        <!-- Documentation -->
+                        {% if page.documentation %}
+                        <section>
+                            <h3>Documentation</h3>
+                            {% if page.documentation_phrase %}
+                                <p>{{ page.documentation_phrase }}</p>
+                            {% endif %}
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="{{ page.documentation }}" target="_blank" class="button">Docs</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                        <hr />
                         {% assign side_content = true %}
                         {% endif %}
                         
@@ -46,12 +64,12 @@ layout: default
                                 </ul>
                             </footer>
                         </section>
+                        <hr />
                         {% assign side_content = true %}
                         {% endif %}
                         
                         <!-- Source Code -->
                         {% if page.source_code_url %}
-                        <hr />
                         
                         <section>
                             {% if page.source_code_image %}

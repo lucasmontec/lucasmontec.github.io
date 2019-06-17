@@ -12,6 +12,15 @@ bg: assets/images/ate_talepad.png
 one_liner: A text game engine, a language and a code editor to play.
 description: |
     This was my first big project. I was learning everything. This is a text engine that provides tools to make <i>retro</i> text based games. In this project I have also created a language called TaleCode to describe interactive histories.
+    
+# Project Page
+
+binary_download: https://drive.google.com/open?id=0B6j-8d-DevCDd0RaNl8yRUdKQm8
+download_phrase: It is always a work in progress but you can download it and check it out.
+
+documentation: http://zumbi.co.nf/TalecodeDoc/
+documentation_phrase: This is the current feature set the engine supports.
+
 ---
 
 ### Alien Text Engine? What?
@@ -34,7 +43,7 @@ Alien text engine is a game engine that provides a framework for text game devel
 
 Tale code is a companion programing language that comes with the engine. The language is a declarative script. In it you instantiate behaviours and objects, create scenes and links setting up an entire history.
 
-Tale pad is a notepad that compiles tale code. I don't suggest using it to write talecode though, for that I use NotePad++ with a language definition that I made (available <a href="https://drive.google.com/open?id=0B6j-8d-DevCDdjZmRmVwRmppbmM">here</a>).</p>
+Tale pad is a notepad that compiles tale code. I don't suggest using it to write talecode though, for that I use NotePad++ with a language definition that I made (available <a href="https://drive.google.com/open?id=0B6j-8d-DevCDdjZmRmVwRmppbmM">here</a>).
 
 ### What can you do with it?
 
