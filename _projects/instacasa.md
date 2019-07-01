@@ -6,7 +6,7 @@ featured: false
 
 # Listing settings
 
-font_awesome_icon: fa-cogs
+font_awesome_icon: fa-mobile
 
 bg: assets/images/instacasa_a.png
 
