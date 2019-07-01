@@ -30,7 +30,7 @@ As we know, augmented reality is an important tool for marketing campaigns that 
 InstaCasa saw this as an opportunity to create an app that improves their client shopping experience by showing how the product fits in the real world. This is a known
 and important attribute of this technology, the ability to see virtual projects in real life.
 
-![picture of the application showing a 3D model loaded in augmented reality](assets/images/instacasa_b.png)
+![picture of the application showing a 3D model loaded in augmented reality](https://lucasmontec.github.io/assets/images/instacasa_b.png)
 
 This experience is really important for the customer, especially when dealing with products that can only be seen in virtual environments. When you give the user the power
 of seeing the product in real life it changes his understanding of it and creates value.
