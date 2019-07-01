@@ -48,6 +48,6 @@ through a link without installing it on the device. This option would allow us t
 with native hardware access. This option would also allow us to use the client web site as the interface for the app, which would cut costs and make the development time much shorter. 
 We went with the second option but decided later to make the app as a normal application and not an instant app. 
 
-Another valuable feature was the integration with the client backend. Since the app was planned to be light and we would use the client’s site as an interface, it was only natural that we decided 
-to not include the 3D projects in the app. Instead, we worked with the client’s backend developers to provide an API where the models would be hosted in their site directly. The app only reads the 
-URL that was clicked to open it and then it downloads and stores the projects the consumer wants to see.
+A valuable feature that was added also was the integration with the client backend. Since the app was planned to be light and we would use the client’s site as an interface, it was only 
+natural that we decided to not include the 3D projects in the app. Instead, we worked with the client’s backend developers to provide an API where the models would be hosted in their site
+directly. The app only reads the URL that was clicked to open it and then it downloads and stores the projects the consumer wants to see.
