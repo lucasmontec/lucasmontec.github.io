@@ -30,7 +30,7 @@ As we know, augmented reality is an important tool for marketing campaigns that 
 InstaCasa saw this as an opportunity to create an app that improves their client shopping experience by showing how the product fits in the real world. This is a known
 and important attribute of this technology, the ability to see virtual projects in real life.
 
-![picture of the application showing a 3D model loaded in augmented reality](https://lucasmontec.github.io/assets/images/instacasa_b.png)
+<img src="https://lucasmontec.github.io/assets/images/instacasa_c.png" alt="picture of the application showing the download menu" style="width:250px;"/>
 
 This experience is really important for the customer, especially when dealing with products that can only be seen in virtual environments. When you give the user the power
 of seeing the product in real life it changes his understanding of it and creates value.
@@ -42,6 +42,8 @@ doesn’t want to download any new apps. This problem is recurring for this kind
 We had several options, from developing the app using javascript and deploying it with WebGL, to creating a native app that the user has to download. The app using WebGL would have 
 several limitations, the marker would have to have a 2cm black border and a matrix of black squares and/or the content displayed in the virtual space would have to be limited since the 
 hardware access would be virtualized. Still, the customer wouldn’t have to install an app which is desired. 
+
+<img src="https://lucasmontec.github.io/assets/images/instacasa_b.png" alt="picture of the application showing the download menu" style="width:250px;"/>
 
 Another option was to build a small native app that wouldn’t have the 3D models in it and that could be downloaded as an android instant app. An instant app is an app that can be launched 
 through a link without installing it on the device. This option would allow us to deploy an app that could handle scanning of any image as a marker and that could render complex 3D scenes 
