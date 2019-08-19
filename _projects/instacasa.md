@@ -26,14 +26,14 @@ main_image: assets/images/instacasa_c.png
 
 ### AR Viewer
 
-As we know, augmented reality is an important tool for marketing campaigns that can increase its value as well as create a direct channel between brands and clients.
+As we know augmented reality is an important tool for marketing campaigns that can increase their value as well as create a direct channel between brands and clients.
 InstaCasa saw this as an opportunity to create an app that improves their client shopping experience by showing how the product fits in the real world. This is a known
-and important attribute of this technology, the ability to see virtual projects in real life.
+and important attribute of this technology, the ability to see virtual assets in real life.
 
 <img src="https://lucasmontec.github.io/assets/images/instacasa_c.png" alt="picture of the application showing the download menu" style="width:40%;display:block;margin:auto;"/>
 
 This experience is really important for the customer, especially when dealing with products that can only be seen in virtual environments. When you give the user the power
-of seeing the product in real life it changes his understanding of it and creates value.
+of experiencing the product in real life it changes his understanding of it and creates value.
 
 ## Features of a good AR App
 
@@ -51,5 +51,5 @@ with native hardware access. This option would also allow us to use the client w
 We went with the second option but decided later to make the app as a normal application and not an instant app. 
 
 A valuable feature that was added also was the integration with the client backend. Since the app was planned to be light and we would use the client’s site as an interface, it was only 
-natural that we decided to not include the 3D projects in the app. Instead, we worked with the client’s backend developers to provide an API where the models would be hosted in their site
+natural that we decided to not include the 3D projects in the app. Instead, we worked with the client’s backend developers to provide an API where the models would be hosted on their site
 directly. The app only reads the URL that was clicked to open it and then it downloads and stores the projects the consumer wants to see.
