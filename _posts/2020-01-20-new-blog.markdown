@@ -3,12 +3,14 @@ layout: post
 title:  "New Blog!"
 date:   2020-01-20
 categories: General
+excerpt_separator: <!--more-->
 ---
 
 
 # The blog is live
 
 Finally, I have decided that I need to finish coding my blog. I have so much to write about, so many cases, stories, tips, and tutorials. Because of that, finally, I have sat down and finished the blog layout and post layout.
+<!--more-->
 
 # Why having a blog today?
 
