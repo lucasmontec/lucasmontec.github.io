@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "New Blog!"
+date:   2020-01-20
+categories: General
+---
+
+
+# The blog is live
+
+Finally, I have decided that I need to finish coding my blog. I have so much to write about, so many cases, stories, tips, and tutorials. Because of that, finally, I have sat down and finished the blog layout and post layout.
+
+# Why having a blog today?
+
+This is something I thought about a lot. Why having a blog? Don't we have social media, aren't git hosts some sort of coding social media already? Do developers really need to have blogs?
+
+I don't think there is a catch-all answer for those questions. But what I feel is that there is a lot that I want to share and express and I can't by just sharing code and documentation.  I believe writing software is much more than thinking about code, it is how we understand the universe, how we express it in code, how we approximate its problems and solutions and more than all that, how we communicate efficiently with other people.
+
+Because of that, I felt that I needed someplace to write about my experience as a software developer, and also to share with the community which has made me who I am now.
+
+# What content will I post?
+
+I want to post content related to software development and to the life of a software developer. 
+I'll post code snippets and write about them, explaining not only how they work but also how I wrote them. I'll post about code that I read online, code that my friends want me to post about, and maybe even about code that you send me to evaluate and talk about. I also intend to talk about software architecture, design patterns and other nice topics on software development that I have experienced.
+Also, as I said, I don't want to write only about code and software architecture. I will also write posts about software development lifestyle practices, managing working with other developers, coordinating a team, and writing code for people to understand. Writing software may not look like a very human thing to do, but it is. This is why I want to talk about those things since I believe good software is tied to a good life and to good communication and human interaction skills. I believe writing about my experiences on this will not only help others facing similar problems but will also help me develop my own communication abilities.
+
+# Schedule
+
+I won't have one for now. I'll post when I feel I have good content to write about.
+
+
