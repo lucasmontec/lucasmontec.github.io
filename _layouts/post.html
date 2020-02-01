@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div id="page-wrapper">
+
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>{{ page.title }}</h2>
+                <p>{{ page.one_liner }}</p>
+            </header>
+            <div class="row 150%">
+                <div class="12u$ 12u$(medium) important(medium)">
+
+                    <!-- Content -->
+                    <section id="content">
+                        
+                        {% if page.main_image %}
+                        <div class="image fit"><img src="{{ page.main_image }}" alt="" /></div>
+                        {% endif %}
+                        
+                        {{ content }}
+                        
+                    </section>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>

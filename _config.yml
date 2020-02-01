@@ -97,6 +97,12 @@ defaults:
     values:
       project: true
       layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      post: true
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

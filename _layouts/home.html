@@ -34,7 +34,7 @@ Only featured projects are rendered in the home page.
             <h2>{{ project.name }}</h2>
             <p>{{ project.one_liner }}</p>
         </header>
-        <p>{{ project.description | markdownify }}</p>
+        {{ project.description | markdownify }}
         <ul class="actions">
             {% if project.direct_link %}
             <li><a href="{{ project.direct_link }}" target="_blank" class="button">Go to it</a></li>

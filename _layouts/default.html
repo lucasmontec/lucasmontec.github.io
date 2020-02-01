@@ -30,6 +30,10 @@
                     {% assign back_url = "/projects/" %}
                 {% endif %}
                 
+                {% if page.post %}
+                    {% assign back_url = "/blog/" %}
+                {% endif %}
+                
                 <li><a href="{{ back_url }}" class="button special">Back</a></li>
                 {% endunless %}
             </ul>
