@@ -22,12 +22,20 @@ Because of that, I felt that I needed someplace to write about my experience as 
 
 # What content will I post?
 
-I want to post content related to software development and to the life of a software developer. 
-I'll post code snippets and write about them, explaining not only how they work but also how I wrote them. I'll post about code that I read online, code that my friends want me to post about, and maybe even about code that you send me to evaluate and talk about. I also intend to talk about software architecture, design patterns and other nice topics on software development that I have experienced.
-Also, as I said, I don't want to write only about code and software architecture. I will also write posts about software development lifestyle practices, managing working with other developers, coordinating a team, and writing code for people to understand. Writing software may not look like a very human thing to do, but it is. This is why I want to talk about those things since I believe good software is tied to a good life and to good communication and human interaction skills. I believe writing about my experiences on this will not only help others facing similar problems but will also help me develop my own communication abilities.
+I want to post content related to software development and to the life of a software developer. I'll post code snippets and write about them, explaining not only how they work but also how I wrote them. I'll post about code that I read online, code that my friends want me to post about, and maybe even about code that you send me to evaluate and talk about. I also intend to talk about software architecture, design patterns and other nice topics on software development that I have experienced.
+
+Also, as I said, I don't want to write only about code and software architecture. I will also write posts about software development lifestyle practices, managing working with other developers, coordinating a team, and writing code for people to understand. Writing software may not look like a very human thing to do, but it is.
+
+This is why I want to talk about those things since I believe good software is tied to a good life and to good communication and human interaction skills. I believe writing about my experiences on this will not only help others facing similar problems but will also help me develop my own communication abilities.
 
 # Schedule
 
 I won't have one for now. I'll post when I feel I have good content to write about.
 
+# Last but not least
 
+I want to live you guys with one of my favourite quotes of software development and maybe even life, haha:
+
+> We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.
+
+That was said by Donald Knuth and I think there is a lot of wisdom in this. Don't know, just food for thought I think.
