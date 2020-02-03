@@ -2,10 +2,12 @@
 name: NeuralNet with scalaJS
 type: Game
 
-bg: assets/images/ate_talepad.png
+bg: /assets/images/neural.png
 
 #Added to override the project page
 direct_link: https://lucasmontec.github.io/scala-neural-net-test/
+
+main_image: /assets/images/neural.png
 
 one_liner: A fun experiment to play with scala and neural networks.
 description: |
