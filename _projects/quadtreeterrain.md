@@ -4,7 +4,7 @@ type: Experiment
 
 # Listing settings
 
-direct_link: http://zumbi.co.nf/Zomborms/
+direct_link: http://lucasmontec.github.io/TerrainGeneration/
 
 font_awesome_icon: fa-flask
 
