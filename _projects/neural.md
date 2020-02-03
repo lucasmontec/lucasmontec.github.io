@@ -5,7 +5,7 @@ type: Game
 bg: assets/images/ate_talepad.png
 
 #Added to override the project page
-direct_link: http://zumbi.co.nf/neural/
+direct_link: https://lucasmontec.github.io/scala-neural-net-test/
 
 one_liner: A fun experiment to play with scala and neural networks.
 description: |
