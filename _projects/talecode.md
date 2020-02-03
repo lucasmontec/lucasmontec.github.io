@@ -18,7 +18,7 @@ description: |
 binary_download: https://drive.google.com/open?id=0B6j-8d-DevCDd0RaNl8yRUdKQm8
 download_phrase: It is always a work in progress but you can download it and check it out.
 
-documentation: http://zumbi.co.nf/TalecodeDoc/
+documentation: https://lucasmontec.github.io/talecode-documentation/
 documentation_phrase: This is the current feature set the engine supports.
 
 ---
