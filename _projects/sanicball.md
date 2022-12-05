@@ -15,4 +15,6 @@ source_code_phrase: The source code is avaliable at GitHub.
 
 ---
 
-My own SonicBall remake. Just one map. This was a project for a computer graphics course I took during my graduation. Multiplayer rolling ball game made in Unity3D.
+Multiplayer rolling ball game made in 2 days using Unity3D.
+
+My own SonicBall remake. Just one map. This was a project for a computer graphics course I took during my graduation. 
