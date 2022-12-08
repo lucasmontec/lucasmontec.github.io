@@ -6,7 +6,7 @@ categories: General
 excerpt_separator: <!--more-->
 ---
 
-# [WIP] Why software architecture?
+# [Draft]  Why software architecture?
 
 Hey folks! As promised, I’m going to share today a little bit of my vision on why I believe software architecture matters.
 
@@ -36,7 +36,7 @@ Going back to the garbage example, after we define ourselves and the garbage bag
 
 The structure starts to emerge organically here. Things that happen define certain layers of responsibilities, contexts where actors and systems live. You become a garbage mover in the garbage access layer. On that layer, actors can access the garbage repositories, on the garbage layer. Garbage movers can move garbage bags between those repositories, thus being able to empty the house trash can and fill the street garbage spot.
 
-![garbagediagram.jpg](diagram showing the relationship between actors. the 'you' actor is tied to the household garbage repository and to the street repository. the garbage man actor is tied to the street repository)
+![assets/images/garbagediagram.jpg](diagram showing the relationship between actors. the 'you' actor is tied to the household garbage repository and to the street repository. the garbage man actor is tied to the street repository)
 
 So generally, the structure creates well defined rules and roles between the actors and components. Whereas the abstraction, is the conceptualization or generalization of the actual world. And because of that, I believe software can be seen from a perspective, as structures of abstraction.
 
