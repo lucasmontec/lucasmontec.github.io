@@ -36,7 +36,7 @@ Going back to the garbage example, after we define ourselves and the garbage bag
 
 The structure starts to emerge organically here. Things that happen define certain layers of responsibilities, contexts where actors and systems live. You become a garbage mover in the garbage access layer. On that layer, actors can access the garbage repositories, on the garbage layer. Garbage movers can move garbage bags between those repositories, thus being able to empty the house trash can and fill the street garbage spot.
 
-![https://lucasmontec.github.io/assets/images/garbagediagram.jpg](diagram showing the relationship between actors. the 'you' actor is tied to the household garbage repository and to the street repository. the garbage man actor is tied to the street repository)
+<img src="https://lucasmontec.github.io/assets/images/garbagediagram.jpg" alt="diagram showing the relationship between actors. the 'you' actor is tied to the household garbage repository and to the street repository. the garbage man actor is tied to the street repository" width="600"/>
 
 So generally, the structure creates well defined rules and roles between the actors and components. Whereas the abstraction, is the conceptualization or generalization of the actual world. And because of that, I believe software can be seen from a perspective, as structures of abstraction.
 
