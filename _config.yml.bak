@@ -78,7 +78,6 @@ copyright_notice: "&copy; Lucas M Carvalhaes. All rights reserved."
 # Build settings
 markdown: kramdown
 # theme: minima
-mermaid: true
 
 google_analytics: UA-142152268-1
 

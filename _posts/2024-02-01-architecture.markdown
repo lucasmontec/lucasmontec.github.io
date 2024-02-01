@@ -112,7 +112,7 @@ In the realm of TDTDD, 'TDn' stands as a pivotal metric, representing the number
 
 The TDn rating is calculated based on the number of meta-test layers a piece of software has gone through. A simple formula can be:
 
-***TDn Rating = Number of Meta-Test Layers***
+`TDn Rating = Number of Meta-Test Layers`
 
 This rating provides a clear and quantifiable measure of the software's reliability.
 
