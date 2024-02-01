@@ -33,14 +33,14 @@ Enter TDTDD: Test-Driven Test-Driven Development. This innovative approach adds 
 
 Once the meta-test fails (as it should), the developer then writes the actual test. This test is bound to fail since the corresponding code doesn't exist yet. Only after this step does the developer write the code, aiming to pass the first layer test. As a result, the meta-test passes, signifying that the test for the code is valid, and the first layer test also eventually passes, confirming the code functions as intended.
 
-```mermaid
+<div class="mermaid">
 graph TD;
     A[Write Meta-Test] -->|Fails| B[Write Test];
     B --> |Fails| C[Write Code];
     C --> D{Test Passes?};
     D -- Yes --> E[Meta-Test Passes];
     D -- No --> B;
-```
+</div>
 
 ### The Transformative Pros of TDTDD
 
