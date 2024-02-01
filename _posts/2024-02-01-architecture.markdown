@@ -74,7 +74,7 @@ TDTDD introduces the concept of 'optional transitive failure', further enhancing
 
 #### Example in C#
 
-```csharp
+{% highlight csharp linenos %}
 // Method to test
 public int Sum(int a, int b) {
     return a + b;
@@ -92,7 +92,7 @@ public void TestSum() {
 public void TestTestSum() {
     Assert.IsTrue(TestSum() is TestResult);
 }
-```
+{% endhighlight %}
 
 ### Ensuring Fail-Safe Development
 
