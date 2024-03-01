@@ -1,6 +1,6 @@
 ---
 
-name: Zu Ble - Zumbi BLE Unity library
+name: ZuBLE
 type: Tool
 featured: false
 
