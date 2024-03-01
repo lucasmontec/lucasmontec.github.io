@@ -23,7 +23,7 @@ description: |
 
 I made this tool to work with Chinese I2C devices that have very little to no documentation. It's basically a tool that exposes I2C to the serial interface but also provides a few utilities like creating aliases, scanning addresses and such.
 
-## Features
+### Features
 
 - **Scan the I2C bus** for connected devices.
 
