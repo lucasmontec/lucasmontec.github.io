@@ -6,7 +6,7 @@ featured: false
 
 # Listing settings
 
-font_awesome_icon: fa-microchip
+font_awesome_icon: fa-wrench
 
 bg: assets/images/i2c.png
 

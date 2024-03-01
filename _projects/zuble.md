@@ -2,7 +2,7 @@
 name: ZuBle
 type: Library
 
-font_awesome_icon: fa-unity
+font_awesome_icon: fa-bluetooth
 
 one_liner: A unity library to use BLE Devices.
 
