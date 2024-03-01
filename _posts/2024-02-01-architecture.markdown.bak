@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "TDTDD: The Evolution of Software Development"
+title:  "TDTDD: The Evolution of Software Testing"
 date:   2024-02-01
 categories: Comedy
 excerpt_separator: <!--more-->
 
 ---
 
-# TDTDD: A Paradigm Shift in Software Development
+# TDTDD: A Paradigm Shift in Software Testing
 
 In the ever-evolving world of software development, Test-Driven Development (TDD) has long been a cornerstone. At its core, TDD revolves around a simple concept: write tests before you write the corresponding code. This approach ensures that development is always geared towards passing these pre-defined tests, theoretically guaranteeing code that fulfills its intended purpose right out of the gate.
 
