@@ -20,28 +20,26 @@ order: 0
 
 ### What is Bawllers
 
-Bawllers is a fun fast paced multiplayer combat game. It's a ball fighting game where players get combat abilities from power ups around the levels, then use those abilities to destroy the other players.
-The game has several game modes but usually the last standing player or team wins!
+Bawllers is a fast-paced, multiplayer combat game where players control balls that fight using power-ups scattered throughout the level. These power-ups grant combat abilities that players use to destroy their opponents.
+The game features multiple game modes, but the core objective is usually simple: the last player or team standing wins.
 
-The game has several abilities and pickups: 
-    * Primaries focus on combat, damaging players or pushing them away.
-    * Mega primaries focus on ultra combat: They are ultra strong primaries that usually destroy more than half of the map and can damage the casting player too.
-    * Secondaries focus on player movement, allowing players to move faster, jump higher or even fly for a bit.
-    * Health pickups: recover player damage, allow for surviving longer.
+Abilities and pickups include: 
+    * Primaries: Core combat abilities that deal damage or knock players away.
+    * Mega Primaries: Overpowered combat abilities that often destroy large parts of the level and can even harm the user.
+    * Secondaries: Movement-focused abilities that boost speed, jump height, or grant temporary flight.
+    * Health pickups: Restore health and increase survivability.
 
-The players can interact with the level too, providing several gameplay alternatives for different game modes or emergent behavior within a run of the same level.
+Players can also interact with the environment, opening up different strategies and emergent gameplay depending on the mode or level.
 
 ### Tech stuff
 
-I'm developing this game on my own to learn how to finish a project and deal with a fixed scope!
+I'm developing this game solo, as a way to learn how to finish a full project within a defined scope.
 
-The game is hybrid authority. Because of the physics-based player controller, the player position authority is client-side. This was intentional. I could spend time implementing a server simulated authority,
-with some slack for the client to feel fast and smooth, but I deemed this to be out of scope. Instead, I designed my netcode to favor the player experience and development velocity. This allowed me to create this game much faster.
-To cope with cheating, I added a collision arbiter that checks server side behavior for players in each collision, simulating their buffered positions and cross checking with client reported data.
-Still, the focus is to create a fun complete game fast, and on my own. It's shared authority becase other player data like damage, abilities and such, are all server authoritative. This allows me to still have some control over what
-is happening and deal a little bit with cheating.
+The game uses a hybrid authority model. Because of the physics-based player controller, positional authority is client-side—by design. While I could have implemented server-side simulation with client-side smoothing, I considered it out of scope for this project. Prioritizing player experience and development speed, I built a custom netcode that favors responsiveness.
 
-For now, this is closed source as I intend to publish the game on Steam.
+To address cheating, I implemented a server-side collision arbiter that verifies each collision using buffered player states and compares them against client-reported data.
+While position is client-authoritative, all other data—such as damage, abilities, and health—are server-authoritative. This shared authority approach gives me control over critical gameplay elements while keeping development agile.
+The project is currently closed source, as I intend to publish the game on Steam.
 
 ### Closed alpha playtest videos
 
