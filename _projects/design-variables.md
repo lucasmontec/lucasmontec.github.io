@@ -1,5 +1,5 @@
 ---
-name: Quick Scenes
+name: Design Variables
 type: Tool
 
 # Listing settings
