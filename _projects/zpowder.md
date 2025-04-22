@@ -42,7 +42,10 @@ I also made it so I could add more particle types easily while keeping them fast
 ## See it!
 
 Overview:
-https://www.youtube.com/watch?v=nj7GUoX-N3Q
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube.com/watch?v=nj7GUoX-N3Q" frameborder="0" allowfullscreen></iframe>
+</div>
+<p></p>
 
 Gunpowder implementation with fire:
 https://www.youtube.com/watch?v=UTuRFAgmswY
