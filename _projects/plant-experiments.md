@@ -2,10 +2,11 @@
 name: Plants
 type: Experiment
 
-#Added to override the project page
 direct_link: https://gitlab.com/lucasmontec/plantmovementtechniquesonunity
 
 main_image: /assets/images/plants.png
+
+font_awesome_icon: fa-flask
 
 one_liner: Playing with Verlet rope simulations and interacting with Physx.
 description: |

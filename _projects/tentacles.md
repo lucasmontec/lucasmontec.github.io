@@ -2,10 +2,11 @@
 name: Tentacles
 type: Experiment
 
-#Added to override the project page
 direct_link: https://gitlab.com/lucasmontec/tentacleexperiments
 
 main_image: /assets/images/tentacles.png
+
+font_awesome_icon: fa-flask
 
 one_liner: Playing with Verlet rope simulations and interacting with Physx.
 description: |
