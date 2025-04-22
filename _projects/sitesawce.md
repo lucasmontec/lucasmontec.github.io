@@ -1,7 +1,7 @@
 ---
 name: Sawce and Sawce Site
 type: Game Study Group
-featured: false
+featured: true
 
 # Listing settings
 

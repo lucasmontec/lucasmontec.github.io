@@ -9,6 +9,7 @@ featured: true
 font_awesome_icon: fa-gamepad
 
 bg: assets/images/CGT1.png
+main_image: assets/images/gorilka.png
 
 one_liner: A Terminal/Console/CLI tower defense.
 
