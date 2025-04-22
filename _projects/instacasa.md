@@ -10,7 +10,7 @@ font_awesome_icon: fa-mobile
 
 bg: assets/images/instacasa_a.png
 
-direct_link: https://play.google.com/store/apps/details?id=com.farm.ideas.arview
+direct_link: https://apkpure.com/br/instacasa-realidade-aumentad/com.farm.ideas.arview
 
 one_liner: An augmented reality app for architectural visualization.
 description: |
