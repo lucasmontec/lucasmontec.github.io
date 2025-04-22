@@ -1,7 +1,6 @@
 ---
 name: ZUnit
 type: Tool
-featured: true
 
 font_awesome_icon: fa-terminal
 
