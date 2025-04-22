@@ -7,6 +7,7 @@ type: Game Simulation
 font_awesome_icon: fa-cogs
 
 one_liner: Powder game implementation using a similar technique used by Noita.
+main_image: /assets/images/zpowder.png
 
 # Project Page
 
