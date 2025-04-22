@@ -13,7 +13,9 @@ one_liner: A comedic action-packed combat game.
 
 description: |
     Bawllers is a comedic fast-paced action ball combat game. Heavily inspired by Mario Kart, Smash Bros, Golf with Friends and even Team Fortress 2, it is a fun oriented game!
-    
+
+order: 0
+
 ---
 
 ### What is Bawllers

@@ -22,7 +22,7 @@ home: true
 Only featured projects are rendered in the home page.
 {% endcomment %}
 
-{% assign projects = site.projects | where: "featured", "true" %}
+{% assign projects = site.projects | where: "featured", "true" | sort: "order" %}
 
 <!-- Content -->
 {% for project in projects %}

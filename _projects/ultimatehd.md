@@ -18,6 +18,8 @@ description: |
     "Remember when your mother told you to eat all of your vegetables and you'd just throw them out the window? Well, you should have listened. Now they are HUGE and mad and they want to to EAT YOU ALIVE!"
      A game I did with my Ludum Dare team in three days. It is an FPS on the browser where you kill "vegetables" and group their bodies to get ammo.
 
+order: 3
+
 ---
 
 ### The game

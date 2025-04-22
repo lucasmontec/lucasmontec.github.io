@@ -18,8 +18,7 @@ direct_link: https://gamejolt.com/games/ChromaticGorilkaTypo/335315
 description: |
     "Chromatic Gorilka Typo is a tower defense typing game where chromatic gorilkas, annoyed by your blue-switches mechanical keyboard sound, attack your house to unplug your USB cable. You must type HARDER and LOUDER to defend your home. But this will probably tease them even more…."
 
-    
-# Main site settings
+order: 2
 
 ---
 
