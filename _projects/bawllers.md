@@ -67,6 +67,6 @@ The project is currently closed source, as I intend to publish the game on Steam
 #### Version: Macross
 
 <div class="video-container">
-    <iframe class="video" src="https://www.youtube.com/watch?v=tnz6hXff5dA" frameborder="0" allowfullscreen></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/tnz6hXff5dA" frameborder="0" allowfullscreen></iframe>
 </div>
 <p></p>
