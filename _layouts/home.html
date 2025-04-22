@@ -28,7 +28,17 @@ Only featured projects are rendered in the home page.
 {% for project in projects %}
 
 <section id="{{ forloop.index0 }}" class="spotlight style2 {% cycle 'left', 'right' %}">
+
+    {% if project.bg_video %}
+    <div class="video-background">
+        <iframe src="{{ project.bg_video }}?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;modestbranding=1&amp;disablekb=1&amp;fs=0" 
+        frameborder="0" allowfullscreen="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: 0; pointer-events: none;">
+        </iframe>
+    </div>
+    {% else %}
     <span class="image fit main"><img src="{{ project.bg }}" alt="" /></span>
+    {% endif %}
+
     <div class="content">
         <header>
             <h2>{{ project.name }}</h2>
@@ -43,10 +53,12 @@ Only featured projects are rendered in the home page.
             {% endif %}
         </ul>
     </div>
+
     {% unless forloop.last %}
     {% assign next_i = forloop.index0 | plus: 1 %}
     <a href="#{{ next_i }}" class="goto-next scrolly">Next</a>
     {% endunless %}
+
 </section>
 
 {% endfor %}

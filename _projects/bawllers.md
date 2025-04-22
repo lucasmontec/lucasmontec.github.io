@@ -6,7 +6,7 @@ featured: true
 
 font_awesome_icon: fa-users
 
-bg: assets/images/bawllers_bg.png
+bg_video: https://www.youtube.com/watch?v=Krqz8MaeOC4
 main_image: assets/images/bawllers.png
 
 one_liner: A comedic action-packed combat game.
