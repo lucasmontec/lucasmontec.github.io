@@ -7,7 +7,7 @@ featured: true
 font_awesome_icon: fa-users
 
 bg_video: https://www.youtube.com/embed/Krqz8MaeOC4
-main_image: assets/images/bawllers.png
+main_image: /assets/images/bawllers.png
 
 one_liner: A comedic action-packed combat game.
 
@@ -46,21 +46,21 @@ The project is currently closed source, as I intend to publish the game on Steam
 #### Version: Blue Cheese
 
 <div class="video-container">
-    <iframe class="video" src="https://www.youtube.com/watch?v=nt9QncL-Cd8" frameborder="0" allowfullscreen></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/nt9QncL-Cd8" frameborder="0" allowfullscreen></iframe>
 </div>
 <p></p>
 
 #### Version: Stomp and Brake
 
 <div class="video-container">
-    <iframe class="video" src="https://www.youtube.com/watch?v=Krqz8MaeOC4" frameborder="0" allowfullscreen></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/Krqz8MaeOC4" frameborder="0" allowfullscreen></iframe>
 </div>
 <p></p>
 
 #### Version: Old pre-alpha level design
 
 <div class="video-container">
-    <iframe class="video" src="https://www.youtube.com/watch?v=c8CTHWjEq7w4" frameborder="0" allowfullscreen></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/c8CTHWjEq7w4" frameborder="0" allowfullscreen></iframe>
 </div>
 <p></p>
 
